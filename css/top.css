@@ -1,0 +1,64 @@
+body.toplayer {
+    /*background-color: #405070;*/
+    background-color: #7b7c7e;
+    background-image: url(/source/img/bg1.jpg);
+}
+div dl{
+    margin: 0;
+}
+div.user dl dt{
+    display: inline;
+    margin: 5px;
+    text-shadow: 0px 0px 10px black;
+}
+div.navi dl dt{
+    display: inline;
+    margin: 5px;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+    padding: 0px 2px 0px 2px;
+}
+div{
+    /*border: white solid 1px;*/
+}
+div.navi{
+    width: fit-content;
+}
+div.user{
+    width: fit-content;
+}
+div.ui{
+    width: auto;
+    overflow:hidden;/*避免高度塌陷*/
+}
+div.fightinfo{
+    width: auto;
+    height: 100px;
+    border: #7b7c7e solid 2px;
+    border-radius: 5px;
+    margin:5px;
+}
+div.box{
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+}
+img.assit{
+    height: 153px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    transition:all 0.5s;/*实现过渡动画*/
+}
+dl.equip dt{
+    border: #ffffff solid 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #7b7c7e8b;
+    float: left;
+}
+dl.equip{
+    /*border: #ffffff solid 2px;*//*调试选项*/
+    width: fit-content;
+    overflow:hidden;/*避免高度塌陷*/
+}
